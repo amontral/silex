@@ -49,7 +49,7 @@ export default function App() {
       </nav>
 
       <motion.h1
-        className="text-6xl md:text-8xl font-extrabold text-center z-10 bg-gradient-to-b from-white to-gray-300 bg-clip-text text-transparent leading-tight"
+        className="text-6xl md:text-8xl font-extrabold text-center z-10 bg-gradient-to-b from-white to-gray-300 bg-clip-text text-transparent leading-[1.2] pb-4"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
