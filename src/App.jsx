@@ -71,8 +71,8 @@ export default function App() {
       </footer>
 
       {modal === 'about' && <Modal title="About" content="Silex Strategic Group empowers businesses through elite physical and information security consulting." />}
-      {modal === 'services' && <Modal title="Services" content="• Physical Security Assessment\n• InfoSec Compliance" />}
-      {modal === 'contact' && <Modal title="Contact" content="Email: silexstrategicgroup@gmail.com\nPhone: 501-952-7172" />}
+      {modal === 'services' && <Modal title="Services" content="• Physical and Information Security Consulting" />}
+      {modal === 'contact' && <Modal title="Contact" content="(Email) silexstrategicgroup@gmail.com (Phone) 501-952-7172" />}
     </div>
   )
 }
